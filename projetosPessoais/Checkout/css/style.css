@@ -1,0 +1,95 @@
+body {
+    background-color: #ecefff;
+}
+
+body * {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ------ CONTAINER ------ */
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ BOX ------ */
+
+#box {
+    height: 80%;
+    width: 80%;
+    max-width: 1080px;
+    flex: 1;
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    /* padding: 30px; */
+}
+
+/* ------ Products ------ */
+
+#product-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#products hr {
+    width: 100%;
+}
+
+#products {
+    flex: 1;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 15px;
+    /* overflow: scroll; */
+}
+
+#item1 {
+    flex: 2;
+    background: aqua;
+}
+
+#item2 {
+    flex: 1;
+    background-color: green;
+}
+
+#price {
+    display: inline-flex;
+}
+
+#price-box {
+    display: flex;
+}
+
+#price-title {
+    flex: 1;
+}
+
+#price-number {
+    flex: 1;
+    text-align: right;
+}
+
+/* ------ Payment ------ */
+
+#payment {
+    flex: 2;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#payment-box {
+    padding-left: 60px;
+}
