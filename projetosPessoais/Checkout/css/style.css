@@ -1,8 +1,17 @@
-body {
-    background-color: #ecefff;
+/* ------ GENERAL ------ */
+
+.flex-row {
+    flex-direction: row;
+    display: flex;
 }
 
-body * {
+.flex-column {
+    flex-direction: column;
+    display: flex;
+}
+
+body {
+    background-color: #ecefff;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -80,7 +89,22 @@ body * {
     text-align: right;
 }
 
-/* ------ Payment ------ */
+#item-box {
+    background: orange;
+    display: flex;
+}
+
+#bookcover-box, #product-data {
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+}
+#product-info {
+    display: inline-block;
+    width: 100%;
+}
+
+/* ------ PAYMENT ------ */
 
 #payment {
     flex: 2;
