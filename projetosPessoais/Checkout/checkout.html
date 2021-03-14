@@ -14,62 +14,94 @@
     <div id="container">
         <div id="box">
             <div id="product-box">
-                <div>
+                <div id="cart-box">
                     <h3>My Cart</h3>
                 </div>
 
                 <div id="products">
+<!-- ITEM 1 -->
                         <div id="item1">
                             <div id="item-box">
                                 <div id="product-data">
                                     <div id="bookcover-box">
-                                        oila
-                                        <!-- <img src="img/bigmagic.jpg" alt=""> -->
+                                        <img src="img/bigmagic.jpg" alt="">
                                     </div>
                                     <div id="book-data">
-                                        ola
+                                        <img src="img/arrow_drop_down_circle_24px.svg" style="transform: rotate(180deg);" alt="">
+                                        <div class="book-price-info">
+                                            <p class="small-bold">$11,71</p>
+                                            <a class="small inactive"><br>Remove item</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="product-info">
                                     <div>
-                                        <p>Big Magic: Creative Living Beyond Fear</p>
-                                        <p>Elizabeth Gilbert</p>
+                                        <p class="small-bold">Big Magic: Creative Living Beyond Fear</p>
+                                        <p class="small">Elizabeth Gilbert</p>
                                     </div>
                                 </div>
                             </div> 
                         </div>
+<!-- ITEM 2 -->
                         <hr>
-                        <div id="item2"></div>       
+
+                        <div id="item2">
+                            <div id="item-box">
+                                <div id="product-data">
+                                    <div id="bookcover-box">
+                                        <img src="img/creativity.jpg" alt="">
+                                    </div>
+                                    <div id="book-data">
+                                        <img src="img/arrow_drop_down_circle_24px.svg"  alt="">
+                                        <div class="book-price-info">
+                                            <p class="small-bold">$19,79</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
+                        </div>       
                 </div>
                 <div id="price-box">
                     <div id="price-title">
                         <h3>PRICE</h3>
                     </div>
                     <div id="price-number">
-                        <p>$60</p>
+                        <p>$31,50</p>
                     </div> 
                 </div>    
             </div>
+
+<!-- PAYMENT -->
+
             <div id="payment">
                 <div id="payment-box">
-                    <div class="payment-method">
+                    <div  class="payment-method">
                         <img src="img/arrow_drop_down_circle_24px.svg" alt="">
-                        <a href="">Paypal</a>
+                        <a id="paypal" class="inactive" href="">Paypal</a>
                     </div>
                     <div class="payment-method">
-                        <img src="img/arrow_drop_down_circle_24px.svg" alt="">
-                        <a href="">Credit Card</a>
+                        <img src="img/arrow_drop_down_circle_24px_blue.svg" alt="">
+                        <a id="creditcard" href="">Credit Card</a>
                         <form action="">
-                            <input type="text">
-                            <input type="text"> 
-                            <input type="text"> 
-                            <input type="text">         
+                            <input placeholder="Name" type="text" required>
+                            <input placeholder="Card Number" type="text" required>
+                            <div id="creditcard-info">
+                                <input placeholder="Exp. Date" type="text" required> 
+                                <input placeholder="CVC" type="text" required>    
+                            </div> 
                         </form>
                     </div>
-                    <input type="button" value="CHECKOUT">
+                    <input id="btn-1" type="button" value="CHECKOUT">
                 </div>        
             </div>
         </div>
     </div> 
 </body>
 </html>
+
+<!-- COMPONENENTS TO BE FRAMED
+    
+    <hr class="fade-r"> : hr with color gradient fading towards the right side.
+
+
+ -->
