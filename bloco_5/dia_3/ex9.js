@@ -3,7 +3,6 @@
 
 let task = document.querySelector('.task')
 
-
 task.addEventListener('click', function() {
   let newTask = document.querySelector('span').classList;
   if (newTask == 'task-selected') {
