@@ -8,3 +8,5 @@ function addNewTask(taskString) {
   newTask.innerText = taskString;
   myTasks.appendChild(newTask);
 }
+
+addNewTask('cozinhar')
